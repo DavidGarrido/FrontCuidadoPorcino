@@ -15,6 +15,9 @@ body {
     gap: 5px;
     padding: 5px;
     box-sizing: border-box;
+    background-image: url('../images/Circulos@2x.png');
+    background-size: contain;
+    background-position: right;
 }
 
 .fondoCirculos nav {
