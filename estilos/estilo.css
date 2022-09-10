@@ -28,6 +28,7 @@ body {
     /*forma en la que se distribuyen los elementos dentro del nav*/
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     /*sombra*/
     -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
@@ -53,6 +54,25 @@ body {
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
+}
+.fondoCirculos nav .links{
+    display: flex;
+    gap:10px;
+}
+.fondoCirculos nav .links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background: #E84582;
+    padding: 5px 15px;
+    border-radius: 9999px;
+    width: 150px;
+    text-align: center;
+}
+.fondoCirculos nav .links a:hover{
+    background: #a82c59;
+    cursor: pointer;
 }
 
 section.content {
