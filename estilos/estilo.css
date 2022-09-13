@@ -16,7 +16,7 @@ body {
     padding: 5px;
     box-sizing: border-box;
     background-image: url('../images/Circulos@2x.png');
-    background-size: contain;
+    background-size: contain;   
     background-position: right;
 }
 
@@ -107,12 +107,28 @@ section.content section.form form input{
     padding: 10px;
     border: 0px;
     border-radius: 10px;
-    box-shadow: none;
 
     /*sombra*/
     -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
     -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
     box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+}
+section.content section.form form button{
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: #E84582;
+    font-weight: bold;
+    border-radius: 20px;
+}
+section.content section.form form button:hover{
+    cursor:pointer;
+    background-color: #a82c59;
+    /*sombra*/
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+    transform: scale(1.1);
 }
 section.content section.form form p{
     color:#E84582;
