@@ -86,7 +86,108 @@ section.content {
     padding: 5px;
     gap: 5px;
 }
-section.content section {
+section.content section.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0%;
+    gap:10px;
+    padding: 10px;
+}
+section.content section.profile header{
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px ;
+    width: 80%;
+    margin: 0px;
+    padding: 0px;
+    height: 200px;
+
+    /*sombra*/
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+
+    display: flex;
+    gap:15px;
+}
+section.content section.profile header .picture{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+section.content section.profile header .picture .circle{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+}
+section.content section.profile header .data{
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+section.content section.profile header .data p{
+    margin: 0px;
+}
+section.content section.profile header .data p.name{
+    font-size: 22px;
+    color: #796D71;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+section.content section.profile header .data p.cantidad{
+    font-size: 20px;
+    color: #a82c59;
+    font-weight: bold;
+}
+section.content section.profile header .data p.rol{
+    font-size: 14px;
+    color: #a82c59;
+    font-weight: bold;
+}
+section.content section.profile header .botones{
+    display: flex;
+    align-items: flex-end;
+    gap:15px;
+    padding: 10px 20px;
+}
+section.content section.profile header .botones a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    background: rgb(245,158,191);
+    background: linear-gradient(180deg, rgba(245,158,191,1) 0%, rgba(240,131,171,1) 100%);
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid #a82c59;
+}
+section.content section.profile section.galery{
+    width: 80%;
+    flex: 1 1 0%;
+    margin: 0px;
+    padding: 25px 0px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+
+    overflow: auto;
+}
+section.content section.profile section.galery .card{
+    height: 150px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+
+
+    /*sombra*/
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+}
+section.content section.form {
     flex: 1 1 0%;
 }
 section.content section.form {
