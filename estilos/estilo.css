@@ -173,6 +173,8 @@ section.content section.profile section.galery{
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 15px;
     grid-row-gap: 15px;
+    
+    align-content: flex-start;
 
     overflow: auto;
 }
