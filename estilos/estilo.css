@@ -187,7 +187,7 @@ section.content section.profile section.galery .card{
     -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
     box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
 }
-section.content section.form {
+section.content section {
     flex: 1 1 0%;
 }
 section.content section.form {
